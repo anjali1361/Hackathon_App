@@ -1,0 +1,2 @@
+include ':MainAppHere'
+rootProject.name = "College App"
