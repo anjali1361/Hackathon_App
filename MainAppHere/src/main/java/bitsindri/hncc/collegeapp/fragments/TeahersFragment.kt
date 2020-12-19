@@ -52,7 +52,7 @@ class TeahersFragment : Fragment() {
                               savedInstanceState: Bundle?): View? {
 
         // Inflate the layout for this fragment
-        val view=inflater.inflate(R.layout.fragment_teachers, container, false)
+        val view=inflater.inflate(R.layout.fragment_teahers, container, false)
 
         Name = view.findViewById(R.id.name)
         Email = view.findViewById(R.id.email)

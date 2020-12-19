@@ -150,7 +150,7 @@ public class HomeFragment extends Fragment {
         homeFeedAdapter = new homeFeedAdapter(homeFeedList, getContext());
         homeRecyclerView.setAdapter(homeFeedAdapter);
 
-        // ViewCompat.setNestedScrollingEnabled(homeRecyclerView, false);
+       // ViewCompat.setNestedScrollingEnabled(homeRecyclerView, false);
 
         return homeFeedView;
     }
